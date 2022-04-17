@@ -4,16 +4,22 @@ import javax.swing.JOptionPane;
 
 public class Exercicio05 {
 
-    public int verificaMenorValor(int[] vetorNumeros) {
-        int i = 1, menor = 0, numeroDigitado;
+    public int verificaMenorValor() {
+        int numeroDigitado;
+        int menorNumero = 0, i = 1;
         while (i <= 5) {
-            numeroDigitado = vetorNumeros[i - 1];
-            if (numeroDigitado < menor || i == 1) {
-                menor = numeroDigitado;
+            numeroDigitado = lerNumeroDigitado();
+            if (numeroDigitado < menorNumero || i == 1) {
+                menorNumero = numeroDigitado;
             }
             i++;
         }
-        return menor;
+        return menorNumero;
     }
 
+    private int lerNumeroDigitado() {
+        String numeroDigitadoString = JOptionPane.showInputDialog("Digite um Numero");
+        int numeroDigitado = Integer.parseInt(numeroDigitadoString);
+        return numeroDigitado;
+    }
 }
