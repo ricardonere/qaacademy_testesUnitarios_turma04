@@ -1,6 +1,6 @@
 package medium;
 
-public class Exercicio07 {
+public class Exercicio07_08 {
 
     public String[] preencheVetorMeses() {
         String[] vetorMeses;// declaração do array
