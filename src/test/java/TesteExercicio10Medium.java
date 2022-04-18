@@ -3,7 +3,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class TesteExercicio10 {
+public class TesteExercicio10Medium {
     static Exercicio10 exercicio10;
     static long[] vetorFibonacciEsperado;
 
@@ -25,8 +25,5 @@ public class TesteExercicio10 {
 
     }
 
-    @Test
-    public void testeVetFibonacci() {
-        Assert.assertArrayEquals(vetorFibonacciEsperado, exercicio10.calcularFibonacciVetor(9));
-    }
+
 }

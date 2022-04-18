@@ -13,4 +13,8 @@ public class Exercicio09 {
         }
 
     }
+
+    public Object[] exibeAlunosENumeros(int i) {
+        return new Object[0];
+    }
 }

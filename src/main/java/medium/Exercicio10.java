@@ -1,7 +1,5 @@
 package medium;
 
-import javax.swing.JOptionPane;
-
 public class Exercicio10 {
 
     public int calcularFibonacci(int termo) {
