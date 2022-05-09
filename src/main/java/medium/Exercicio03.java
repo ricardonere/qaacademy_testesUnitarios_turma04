@@ -1,7 +1,7 @@
 package medium;
 
 public class Exercicio03 {
-    public int somaAteMil(){
+    public int somaAteMil(int ii){
         int i = 0, soma = 0;
 
         while (i <= 1000) {
